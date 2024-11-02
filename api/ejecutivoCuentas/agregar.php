@@ -15,7 +15,7 @@ $resp= new AgregarRespuesta();
 
 $ej = new EjecutivoDeCuentas();
 $ej->Id = 1;
-$ej->Descripcion = "string";
+$ej->Descripcion = $req->DescripcionEjecutivoDeCuenta;
 $ej->Usuario = "Anónimo";
 
 $resp->EjecutivoDeCuentas = $ej;
